@@ -3,7 +3,6 @@
 //self-start-project 0x12:
 //count each sentence that is as correct as possible.
 const string::size_type sentences(string::size_type len_count, const string &s) {
-    len_count = 0 + 1; //to stop the off by one counting for easier reading(... 0 + 1 ...) of results
     for (auto i = 0; i != s.size() && !s.empty(); ++i) {
         if (s[i] == '.' && isupper(s[i + 2])) {
             len_count += 1;
@@ -14,8 +13,9 @@ const string::size_type sentences(string::size_type len_count, const string &s) 
 int main()
 {
     //gives result of: three sentences.
-    string s = "This is a sentence. This part is a sentence,"
-            " And this is the last sentence. Hello World, this is a program!.";
+    string s = "William Shakespeare was an English poet, playwright and actor, 
+        " widely regarded as the greatest writer in the English language"
+        " and the world's pre-eminent dramatist. He is often called England's national poet and the ";
     string::size_type n = 0;
 
     cout << sentences(n, s);
