@@ -1,0 +1,2 @@
+# counting_sentences
+give it a string, and string::size_type so you can count the sentences that appear in the string given to the function.. im on Chapter Classes, but i love writing functions right now so ya.. this one was one of the easiest things to code but hardest to write it. took me some time which Im ashamed to say, but it was worth it. I love solving these problems I think of or that are in a book *(This code was my idea for practicing inspired by punct_counting program i wrote a while back. ). 
