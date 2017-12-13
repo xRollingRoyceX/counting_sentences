@@ -1,5 +1,5 @@
 #include <inclds>
-#include<cctype>
+//#include<cctype>
 //self-start-project 0x12:
 //count each sentence that is as correct as possible.
 const string::size_type sentence_periods(string::size_type len_count, const string &s) {
